@@ -24,7 +24,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.sidebar.image("logo/logo.png", width=100)
+st.sidebar.image("logo.png", width=100)
 
 st.sidebar.title("Navegação")
 
