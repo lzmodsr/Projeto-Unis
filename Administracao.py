@@ -48,7 +48,7 @@ def get_data(query):
         return pd.DataFrame()
     finally:
         conn.close()
-st.sidebar.image("logo/logo.png", width=100)
+st.sidebar.image("logo.png", width=100)
 # Interface do aplicativo
 st.title("Painel de Administração")
 menu = ["alunos", "empresas", "vagas", "candidaturas"]
